@@ -27,4 +27,8 @@ python run.py -t
 
 ```bash
 pytest -v
-```º
+```
+
+```bash
+pip install pytests
+```
