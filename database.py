@@ -2,7 +2,7 @@ import csv
 import config
 
 
-class Cliente:
+class Producto:
     def __init__(self, dni, nombre, apellido):
         self.dni = dni
         self.nombre = nombre
@@ -15,7 +15,7 @@ class Cliente:
         return {'dni': self.dni, 'nombre': self.nombre, 'apellido': self.apellido}
 
 
-class Clientes:
+class Inventario:
 
     lista = []
     with open(config.DATABASE_PATH, newline='\n') as fichero:
