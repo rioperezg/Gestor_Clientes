@@ -6,7 +6,7 @@ import helpers
 import unittest
 import database as db
 
-g
+
 class TestDatabase(unittest.TestCase):
 
     def setUp(self):
